@@ -22,6 +22,6 @@ export default new Router({
       component: (resolve) => require(['@/components/bd'], resolve)
     }
   ],
-  mode: "history",
-  base: "/project/"
+  // mode: "history",
+  // base: "/project/"
 })

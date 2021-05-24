@@ -7,7 +7,7 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/HelloWorld',
+      path: '/',
       name: 'HelloWorld',
       component: (resolve) => require(['@/components/HelloWorld'], resolve)
     },
@@ -21,5 +21,6 @@ export default new Router({
       name: 'bd',
       component: (resolve) => require(['@/components/bd'], resolve)
     }
-  ]
+  ],
+  mode: "history"
 })
